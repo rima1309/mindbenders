@@ -20,6 +20,6 @@ build:
 
 run:
 	#docker run -it $(IMG_NAME)
-	docker run -it 8080:8080 gcr.io/mygcsproject-1/mindbenders:0.1
+	docker run -it --rm -p 8080:8080 gcr.io/mygcsproject-1/mindbenders:0.1
 
 
