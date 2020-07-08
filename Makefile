@@ -12,7 +12,7 @@ IMG_NAME=$(REGISTRY)/$(APP_NAME):$(BUILD_TAG)
 #
 build:
 	#docker build -t $(IMG_NAME) .
-	docker build gcr.io/mygcsproject-1/mindbenders:0.1
+	docker build gcr.io/mygcsproject-1/mindbenders:0.1 .
 
 #
 # Run instance
